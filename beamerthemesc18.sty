@@ -1,0 +1,47 @@
+\definecolor{sc18 dark blue}  {RGB}{  0, 32, 91}
+\definecolor{sc18 light blue} {RGB}{156,192,227}
+\definecolor{sc18 med blue}   {RGB}{  0, 94,184}
+
+\definecolor{sc18 red}{RGB}{166,25,46}
+
+\usefonttheme[onlylarge]{structurebold}
+\usetheme{Rochester}
+\usecolortheme{lily}
+
+\setbeamercolor{title}{fg=sc18 red}
+\setbeamercolor{footline}{bg=sc18 light blue,fg=black}
+\setbeamercolor{palette primary}{bg=sc18 dark blue,fg=white}
+
+\setbeamercolor{alerted text}{fg=sc18 med blue}
+\setbeamerfont{alerted text}{series=\bfseries}
+
+\setbeamercolor{block title}{fg=sc18 red}
+\setbeamerfont{block title}{series=\bfseries}
+\setbeamertemplate{block}[rounded]
+
+\setbeamercolor{itemize item}{fg=sc18 med blue}
+\setbeamercolor{itemize subitem}{fg=sc18 med blue}
+\setbeamercolor{itemize subsubitem}{fg=sc18 med blue}
+\setbeamercolor{enumerate item}{fg=sc18 med blue}
+\setbeamercolor{enumerate subitem}{fg=sc18 med blue}
+\setbeamercolor{enumerate subsubitem}{fg=sc18 med blue}
+\setbeamercolor{item}{fg=sc18 med blue}
+\setbeamercolor{button}{fg=sc18 light blue}
+\setbeamercolor{section in toc}{fg=sc18 dark blue}
+
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=5mm,sep=0mm]{footline}
+    \includegraphics[height=5mm]{assets/sc18-logo.png}
+    \hfill
+    \raisebox{2mm}{\insertframenumber\qquad}
+  \end{beamercolorbox}
+}
+
+\usebackgroundtemplate{
+  \includegraphics[width=\paperwidth,height=2\paperheight]{assets/page-bg.png}
+}
+
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
